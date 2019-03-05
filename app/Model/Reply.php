@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reply extends Model
 {
-    public function reply(){
+    public function question(){
 
         return $this->belongsTo(Question::class);
 
